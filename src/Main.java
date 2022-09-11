@@ -35,6 +35,11 @@ public class Main {
 
         int year = 2021;
         System.out.println("year");
+        if (year % 4 = 0 && year % 100 ≠ 0 || year % 400 = 0){
+            System.out.println( year + " является високосным годом");
+        } else {
+            System.out.println( year + " не является високосным годом");
+        }
 
 
         System.out.println( " Задание 4 ");
